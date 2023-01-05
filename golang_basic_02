@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	var r int
+	fmt.Scan(&r)
+	var rr float64 = float64(r)
+	luas_lingkaran := float64((22 / 7) * rr)
+	fmt.Println("Luas lingkaran dengan jari jari = ", r, "adalah ", luas_lingkaran)
+}
+//how to menghitung luas dan jari jari lingkaran
