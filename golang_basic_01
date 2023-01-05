@@ -1,0 +1,9 @@
+package main
+
+import "fmt"
+
+func main() {
+	var namadepan, namabelakang string
+	fmt.Scanf("%s,%s", &namadepan, &namabelakang)
+	fmt.Print("Nama saya adalah : ", namadepan, namabelakang)
+}
